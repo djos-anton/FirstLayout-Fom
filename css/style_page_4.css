@@ -1,0 +1,774 @@
+html{
+	background-image:url(../images/plitka.jpg);	
+}
+
+body{
+    margin:0 auto;
+}
+
+#wrapper{
+	width: 100%;
+	/*height: 2160px;        */
+	outline:0px solid #d92033;		
+}
+/* Начало. Верхняя зелёная полоска*/
+#top{
+	height: 2px;
+	background-color:#7da916;	
+	outline:0px solid #a121d9;			
+}
+/* Конец. Верхняя зелёная полоска*/
+
+/* Начало. Голова*/
+#header{
+	height: 86px;
+	outline:0px solid #5649cf;			
+}
+
+#inHeader{
+	height: 86px;
+	background-color:#ffffff;	
+	outline:0px solid #a3978b;
+}
+
+#logo{
+	float:left;
+	margin-left: 12px;
+}
+
+#shapkaLeft{
+	float:left;
+	width:21%;
+	height:86px;
+	outline:0px solid red;
+}
+
+#shapkaRight{
+	float:right;
+	width:25%;
+	height:86px;
+	outline:0px solid red;
+	position:relative;
+}
+
+#shapkaCenter{
+	float:left;
+	width:32%;
+	height:86px;
+	outline:0px solid red;
+	position:relative;
+}
+
+#shapkaLeft p{
+	margin:0;
+    padding: 10px 0 0 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:20px;
+}
+
+#shapkaCenter p{
+	margin:0;
+    padding: 10px 0 0 33px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:20px;
+}
+
+#shapkaRight p{
+	margin:0;
+    padding: 10px 0 0 39px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	line-height:20px;
+}
+
+#shapkaCenter p span, #shapkaRight p span{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#9A9A9A;
+	font-weight:bold;
+}
+
+#shapkaCenter p a, #shapkaRight p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#B3CE7A;
+	font-weight:bold;
+}
+
+#shapkaCenter p a:hover, #shapkaRight p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#18B426;
+	font-weight:bold;
+}
+
+#mesto1{
+	position:absolute;
+	left:13px;
+	top:30px;
+}
+
+#trubka1{
+	position:absolute;
+	left:14px;
+	top:30px;	
+}
+/* Конец. Голова*/
+
+/* Начало. Навигация*/
+#nav{
+	height: 40px;	
+	background-color:#1c1a1b;		
+	outline:0px solid #49b1cf;	
+    z-index:0;	
+}
+
+#inHeader, #inNav, #inContent, #inFooter{
+	width: 825px;
+    margin:0 auto;	
+}
+
+#inNav{
+	height: 40px;	
+	outline:0px solid #a3978b;	
+}
+
+.menu{
+    display: inline-block;	
+    margin: 0 0 0 6px;
+    padding: 0;	
+	list-style: none;
+    text-transform: uppercase;
+	font-size: 11pt;
+    line-height: 40px;
+    height: 40px;
+	z-index:2;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu li{
+    display:inline;
+    margin: 0 5px;
+}
+
+.menu > li {
+    float: left;
+    position: relative;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 192px;
+    top: 40px;
+    left: 0;
+    background-color: #1C1A1B;
+    padding: 5px;
+	z-index: 2;
+}
+
+
+ul.submenu > li {
+    display: block;
+    line-height: 25px;
+}
+
+ul.submenu > li > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+ul.menu > li:hover {
+    background-color: #2c2c2c;
+}
+
+ul.submenu > li:hover {
+    background-color: #2c2c2c;
+}
+/* Конец. Навигация*/
+
+/* Начало. Контент*/
+#content{
+	/*height: 1700px;  */
+	outline:0px solid #b64d24;	
+}
+
+#inContent{
+	height: 1750px;
+	background-color:#fff;	
+	outline: 0px solid #a3978b;
+    position:relative;
+    z-index:1;	
+}
+
+#topInContent{
+	width:97%;
+	outline:0px solid red;
+	margin-left: 13px;
+}
+
+#topInContent p{
+	margin-top:0;
+	padding-top: 12px;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:10px;
+	font-weight:bold;			
+}
+
+#topInContent p span{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:10px;
+	color:#9A9A9A;
+	font-weight:bold;
+}
+
+#topInContent p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:10px;
+	color:#B3CE7A;
+	font-weight:bold;
+}
+
+#topInContent p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:10px;
+	color:#18B426;
+	font-weight:bold;
+}
+
+#border_s2{
+	margin-top:9px;
+	margin-left:12px;
+    border-top:1px solid #efefef;
+    width: 801px;
+	outline:0px solid black;	
+}
+
+.blok_1_s5{
+	font-family: Verdana, Tahoma, sans-serif;
+	outline:0px solid #95ef15;	
+	margin-left:12px;
+	width:97%;		
+}
+
+.blok_1_s5 h3{
+	margin-bottom: 20px;
+    margin-top: 15px;
+	margin-left: 0;
+}
+
+.blok_1_s5 p{
+	font-size:12px;	
+	margin-top:0;
+}
+
+.borderGreen{
+	width:250px;
+	height: 52px;	
+	border:3px solid #9fb06c;
+	border-radius:5px;
+    margin-top: 25px;
+	margin-left:12px;	
+}
+
+.borderGreen a{
+	display:block;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+.borderGreen a img{
+	display: inlane-block;
+	vertical-align:top;
+	outline:0 solid #95ef15;	
+	margin:12px 13px 0 13px;
+}
+
+.borderGreen a p{
+    color: #232323;
+    display: inline-block;
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    outline: 0 solid #95ef15;
+    vertical-align: top;
+    width: 195px;
+	margin-top:11px;
+}
+
+.borderGreen a p:hover{
+    color: #9fb06c;	
+}
+
+.blok_2_s5{
+	font-family: Verdana, Tahoma, sans-serif;
+	outline:0px solid #95ef15;	
+	margin-left:12px;
+	width:97%;	
+	margin-top:35px;
+	margin-bottom:20px;
+}
+
+.blok_2_s5 h4{
+	margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.blok_2_s5 p{
+	font-size:12px;	
+	margin-top:0;
+}
+
+.trubkaPLUSmesto{
+	height: 110px;	
+	width:97%;	
+	outline:0px solid #95ef15;
+	margin-left:12px;
+	font-family: Verdana, Tahoma, sans-serif;			
+}
+
+.trubka5{
+	height: 110px;	
+	width:48%;
+	outline:0px solid #c42a2a;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;			
+}
+
+.mesto5{
+	height: 110px;	
+	width:48%;
+	outline:0px solid #6b2424;
+	display: inline-block;
+	vertical-align: top;
+}
+	
+.trubka5 img{
+	display: inlane-block;
+	vertical-align:top;
+	outline:0px solid #95ef15;	
+	margin:0 13px 0 0;
+}
+
+.trubka5Text{
+	display: inline-block;
+	outline:0px solid #95ef15;
+	text-transform: uppercase;
+    font-weight: bold;
+	width: 310px;
+	vertical-align:top;		
+}
+
+.trubka5Text p{
+    font-size: 14px;
+    outline: 0px solid #95ef15;
+	margin-top:9px;
+}
+
+.trubka5Text p span{
+    font-size: 12px;
+    outline: 0px solid #95ef15;
+	margin-top:11px;
+}
+	
+.mesto5 img{
+	display: inlane-block;
+	vertical-align:top;
+	outline:0px solid #95ef15;	
+	margin:0 13px 0 0;
+}
+
+.mesto5Text{
+	display: inline-block;
+	outline:0px solid #95ef15;	
+    font-weight: bold;
+	width: 325px;
+	vertical-align:top;		
+}
+
+.mesto5Text p{
+    font-size: 14px;
+    outline: 0px solid #95ef15;
+	margin-top:9px;
+	text-transform: uppercase;
+	margin-bottom: 9px;
+}
+
+.mesto5Text p span{
+    font-size: 11px;
+    outline: 0px solid #95ef15;
+	margin-top:11px;
+	text-transform: none;
+}	
+
+.mesto5Text p a{
+	font-size:10px;
+	color:#94c233;
+	text-transform: none;
+	margin-top:10px;
+}
+
+.mesto5Text p a:hover{
+	font-size:10px;
+	color:#18B426;
+	font-weight:bold;
+}
+
+.konvertPlus{
+	height: 40px;	
+	width:97%;	
+	outline:0px solid #95ef15;
+	margin-left:12px;
+	font-family: Verdana, Tahoma, sans-serif;			
+}
+
+.konvert5{
+	
+}
+	
+.konvert5 img{
+	display: inlane-block;
+	vertical-align:top;
+	margin-right:13px;
+	margin-left:0;
+}
+
+.konvert5Text{
+	display: inline-block;
+	text-transform: uppercase;
+    font-weight: bold;
+	width: 310px;
+	vertical-align:top;		
+}
+
+.konvert5Text p{
+    font-size: 14px;
+    outline: 0px solid #95ef15;
+	margin-top:9px;
+}
+
+.obratnaiaSviaz{
+	margin-left:12px;
+	font-family: Verdana, Tahoma, sans-serif;		
+}
+
+.obrSviazLeft{
+	width:97%;	
+	outline:0px solid #e07714;	
+	display:inline-block;
+	vertical-align:top;
+}
+
+.rphPlusAt{
+	outline:0px solid #e07714;	
+}
+
+.obrSviazLeft span{
+	color: #e75057;
+}
+
+.obratnaiaSviaz p{
+	font-size: 12px;
+}
+
+input, textarea{
+	border: 1px solid #989898;
+}
+
+input:focus, textarea:focus{
+	border: 1px solid #b4bb92;	
+}
+
+.lbl, .lblAt, .lblRph{
+	margin-bottom:5px;
+}
+
+.inpt, .txtr, .inptAt, .inptRph{
+	margin-top:0px;
+}
+
+#name, #mobile{
+	height:25px;
+	width:350px;
+}
+
+#at, #rph{
+	height:25px;
+	width:162px;
+}
+
+.atVat, .rphVrph{
+	display: inline-block;	
+	vertical-align:top;
+	outline:0px solid #24a3b2;	
+	width:166px;
+	height:62px;
+}
+
+.rphVrph{
+	margin-right:15px;
+}
+
+.inptMobile{
+	margin-bottom:0;
+}
+
+textarea{
+	width:350px;
+	height:100px;
+}
+
+.knopka{
+	margin-top:20px;
+}
+
+#submit{
+	background-color:#7cad1d;
+	border: 1px solid #d4e1cd;
+	font-size: 12px;
+	padding:7px 0;
+	border-radius:5px;
+	width:150px;
+	color:#f1ffc9;
+}
+
+#submit:hover{
+	color:#c2c2c2;
+}
+
+h3{
+	margin:20px 0 15px 12px;
+	font-family: Verdana, Tahoma, sans-serif;	
+}
+
+.bottomInContentUP, .bottomInContentNIZ{
+    width:97%;
+    margin-left:12px;
+	outline:0px solid #24a3b2;		
+}
+
+.bottomInContentNIZ{
+	margin-bottom:50px;
+}
+
+.tovar_1{
+	margin-bottom:30px;	
+		outline:0px solid #4d8678;
+}
+
+.tovar_1 img{
+	margin-right:20px;
+	display: inline-block;	
+	vertical-align:top;	
+	outline:0px solid #24a3b2;	
+	width:177px;
+}
+
+.tovar_1_right{
+	display: inline-block;	
+	vertical-align:top;	
+	outline:0px solid #24a3b2;	
+	width:590px;
+	font-family: Verdana, Tahoma, sans-serif;	
+}
+
+.tovar_1_right h5{
+	margin:0;
+}
+
+.tovar_1_right p{
+	font-size: 12px;
+}
+
+/* Конец. Контент*/
+
+
+/* Начало. Подвал*/
+#footer{
+	height: 132px;
+	background-color:#2c2c2c;		
+	outline:0px solid #b6aa24;			
+}
+
+#inFooter{
+	height: 132px;	
+	outline:0px solid #a3978b;	
+	margin-top: 1px;
+	width: 825px;
+}
+
+#LeftInFooter{
+	outline:0px solid #f28b2b;
+    width:33%;
+	float:left;
+	height: 132px;	
+	margin: 0 19px 0 12px;
+}
+
+#LeftInFooter p{
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:15px;
+	margin:13px 0;
+	color:#DCDCDC;	
+}
+
+#LeftInFooter a{
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:15px;
+	margin:13px 0;
+	color:#729446;	
+}
+
+#LeftInFooter a:hover{
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:15px;
+	margin:13px 0;
+	color:#81BD51;	
+}
+
+#bottomMenu{
+	outline:0px solid #f28b2b;
+	float:left;
+	width:63%;
+	height:40px;
+}
+
+#bottomMenu ul{
+	margin-top:8px 0 0 0;
+	padding:0px;
+}
+
+#bottomMenu ul li{
+	display: inline-block;
+	list-style:none;	
+	outline:0px solid #DCDCDC;
+	margin: 0 7px;
+}
+
+#bottomMenu ul li a{
+	color:#729446;
+	font-size:10px;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-weight:bold;
+}
+
+#bottomMenu ul li a:hover{
+	color:#81BD51;
+	font-size:10px;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-weight:bold;
+}
+
+#CenterInFooter{
+	float:left;
+	width:32%;
+	outline:0px solid #DCDCDC;
+	margin: 5px 1px 0 45px;
+	position:relative;
+}
+
+#CenterInFooter p{
+	margin:0;
+    padding: 10px 0 0 33px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:20px;
+	color:#E9E9E9;
+}
+
+#CenterInFooter p span{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#9A9A9A;
+	font-weight:bold;
+}
+
+#CenterInFooter p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#729446;
+	font-weight:bold;
+}
+
+#CenterInFooter p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#18B426;
+	font-weight:bold;
+}
+
+#mesto2{
+	position:absolute;
+	left:12px;
+	top:30px;
+}
+
+#RightInFooter{
+	float:left;
+	width:24%;
+	outline:0px solid #DCDCDC;
+	margin: 5px 0 0 9px;
+	color:#ECECEC;
+	position:relative;
+}
+
+#RightInFooter p{
+	margin:0;
+    padding: 10px 0 0 39px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	line-height:20px;
+}
+
+#RightInFooter p span{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#9A9A9A;
+	font-weight:bold;
+}
+
+#RightInFooter p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#729446;
+	font-weight:bold;
+	padding-left: 6px;
+}
+
+#RightInFooter p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#18B426;
+	font-weight:bold;
+	padding-left: 6px;
+}
+
+#trubka2{
+	position:absolute;
+	left:13px;
+	top:30px;	
+} 
+/* Конец. Подвал*/

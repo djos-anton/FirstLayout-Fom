@@ -1,0 +1,270 @@
+html{
+	background-color:#dae0eb;	
+}
+
+body{
+    margin:0 auto;
+}
+
+#wrapper{
+	width: 100%;
+	outline:0px solid #d92033;		
+}
+
+/* Начало. Контент*/
+#content{
+	outline:0px solid #b64d24;	
+}
+
+#inContent{
+	height: 800px;
+	background-color:#fff;	
+	outline: 0px solid #a3978b;
+    position:relative;
+    z-index:1;
+	width:800px;
+	margin:50px auto;
+}
+
+.normal, .hoverR{
+	height: 700px;	
+	width:300px;
+	outline: 0px solid #1e5ad1;
+	display:inline-block;
+	vertical-align:top;
+	margin-top:50px;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+.normal{
+	margin-left:100px;	
+}
+
+h4{
+	outline:0px solid #95ef15;
+	margin-bottom: 40px;	
+}
+
+.green_s2_nrml{
+	font-size:12px;
+	width:116px;
+	padding:8px 0;
+	text-align:center;
+	font-family: ARIAL, Tahoma, sans-serif;
+	font-weight:bold;
+	border-radius:5px;
+	margin-bottom: 35px;
+	outline:0px solid #95ef15;	
+}
+
+.normal .green_s2_nrml{
+	background-color:#84c10a;	
+}
+
+.hoverR .green_s2_nrml{
+	background-color:#93c437;	
+}
+
+.green_s2_nrml a{
+	display:block;
+	text-decoration:none;
+	color:#f7fff9;
+}
+
+.green_s2_nrml a:hover{
+	color:#d4dddc;	
+}
+
+.orange_nrml{
+	font-size:12px;
+	width:170px;
+	padding:10px 0;
+	text-align:center;
+	font-family: ARIAL, Tahoma, sans-serif;
+	font-weight:bold;
+	border-radius:5px;
+	margin-bottom: 35px;
+	outline:0px solid black;
+	text-transform:uppercase;
+}
+
+.normal .orange_nrml{
+	background-color:#f78701;	
+}
+
+.hoverR .orange_nrml{
+	background-color:#f99e35;		
+}
+
+.orange_nrml a{
+	display:block;
+	text-decoration:none;
+	color:#FFF0C4;
+}
+
+.orange_nrml a:hover{
+	color:#d4dddc;	
+}
+
+.borderGreen_nrml{
+	width:250px;
+	height: 52px;	
+	border:3px solid #9fb06c;
+	border-radius:5px;
+	margin-bottom: 35px;
+	outline:0px solid #95ef15;	
+}
+
+.hoverR .borderGreen_nrml{
+	background-color:#d4f1a1;		
+}
+
+.borderGreen_nrml a{
+	display:block;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+.borderGreen_nrml a img{
+	display: inlane-block;
+	vertical-align:top;
+	outline:0 solid #95ef15;	
+	margin:12px 13px 0 13px;
+}
+
+.borderGreen_nrml a p{
+    color: #232323;
+    display: inline-block;
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    outline: 0 solid #95ef15;
+    vertical-align: top;
+    width: 195px;
+	margin-top:11px;
+}
+
+.borderGreen_nrml a p:hover{
+    color: #9fb06c;	
+}
+
+.green_s2_2_nrml{
+	font-size:12px;
+	width:158px;
+	padding:8px 0;
+	text-align:center;
+	font-family: ARIAL, Tahoma, sans-serif;
+	font-weight:bold;
+	border-radius:5px;
+	margin-bottom: 35px;
+	outline:0px solid black;	
+}
+
+.normal .green_s2_2_nrml{
+	background-color:#84c10a;	
+} 
+
+.hoverR .green_s2_2_nrml{
+	background-color:#96c63c;	
+} 
+
+.green_s2_2_nrml a{
+	display:block;
+	text-decoration:none;
+	color:#f7fff9;
+}
+
+.green_s2_2_nrml a:hover{
+	color:#d4dddc;		
+}
+
+.linia_2_nrml{
+	outline:0px solid black;
+	margin-bottom: 30px;	
+}
+
+.linia_2_nrml p{
+	line-height:20px;	
+	margin: 0;
+}
+
+.linia_2_nrml p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:11px;
+	color:#628E20;
+	font-weight:bold;	
+}
+
+.hoverR .linia_2_nrml p a{
+	text-decoration:none;
+} 
+
+.linia_2_nrml p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:11px;
+	color:#B3CE7A;
+	font-weight:bold;		
+}
+
+.linia_3_nrml{
+	list-style:none;
+	outline:0px solid red;	
+	width: 181px;	
+	margin-bottom: 35px;
+}
+
+.linia_3_nrml img{
+	outline:0px solid #628540;		
+}
+
+.block_178_nrml{
+	outline:0px solid #44d5c2;
+    width:181px;
+	margin-top: -4px;
+}
+
+.grey_nrml{
+	font-family: Verdana, Tahoma, sans-serif;
+	background-color:#616161;
+	font-size:12px;
+	width:155px;
+	height:24px;
+	text-align:center;
+	color:#EAEAEA;	
+	padding-top: 5px;	
+	display: inline-block;	
+	outline:0px solid #685fe8;		
+}
+
+.strelka_nrml{
+	font-family:ARIAL;
+	background-color:#36B400;
+	font-size:15px;
+	width:26px;
+	height:24px;
+	text-align:center;
+	color:#9DF265;
+    float:right;
+	padding-top: 5px;
+	outline:0px solid #df9032;		
+}
+
+.strelka_nrml p{
+	margin:0;
+}
+
+.paragraf_nrml{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:11px;
+	margin:0;
+	width:91%;
+	outline:0px solid black;
+}
+
+.hoverR .paragraf_nrml span{
+	background-color:#d4f1a1;
+}
+	
+/* Конец. Контент*/
+
+

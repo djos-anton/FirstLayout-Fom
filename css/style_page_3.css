@@ -1,0 +1,696 @@
+html{
+	background-image:url(../images/plitka.jpg);	
+}
+
+body{
+    margin:0 auto;
+}
+
+#wrapper{
+	width: 100%;
+	height: 2160px;
+	outline:0px solid #d92033;		
+}
+/* Начало. Верхняя зелёная полоска*/
+#top{
+	height: 2px;
+	background-color:#7da916;	
+	outline:0px solid #a121d9;			
+}
+/* Конец. Верхняя зелёная полоска*/
+
+/* Начало. Голова*/
+#header{
+	height: 86px;
+	outline:0px solid #5649cf;			
+}
+
+#inHeader{
+	height: 86px;
+	background-color:#ffffff;	
+	outline:0px solid #a3978b;
+}
+
+#logo{
+	float:left;
+	margin-left: 12px;
+}
+
+#shapkaLeft{
+	float:left;
+	width:21%;
+	height:86px;
+	outline:0px solid red;
+}
+
+#shapkaRight{
+	float:right;
+	width:25%;
+	height:86px;
+	outline:0px solid red;
+	position:relative;
+}
+
+#shapkaCenter{
+	float:left;
+	width:32%;
+	height:86px;
+	outline:0px solid red;
+	position:relative;
+}
+
+#shapkaLeft p{
+	margin:0;
+    padding: 10px 0 0 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:20px;
+}
+
+#shapkaCenter p{
+	margin:0;
+    padding: 10px 0 0 33px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:20px;
+}
+
+#shapkaRight p{
+	margin:0;
+    padding: 10px 0 0 39px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	line-height:20px;
+}
+
+#shapkaCenter p span, #shapkaRight p span{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#9A9A9A;
+	font-weight:bold;
+}
+
+#shapkaCenter p a, #shapkaRight p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#B3CE7A;
+	font-weight:bold;
+}
+
+#shapkaCenter p a:hover, #shapkaRight p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#18B426;
+	font-weight:bold;
+}
+
+#mesto1{
+	position:absolute;
+	left:13px;
+	top:30px;
+}
+
+#trubka1{
+	position:absolute;
+	left:14px;
+	top:30px;	
+}
+/* Конец. Голова*/
+
+/* Начало. Навигация*/
+#nav{
+	height: 40px;	
+	background-color:#1c1a1b;		
+	outline:0px solid #49b1cf;	
+    z-index:0;	
+}
+
+#inHeader, #inNav, #inContent, #inFooter{
+	width: 825px;
+    margin:0 auto;	
+}
+
+#inNav{
+	height: 40px;	
+	outline:0px solid #a3978b;	
+}
+
+.menu{
+    display: inline-block;	
+    margin: 0 0 0 6px;
+    padding: 0;	
+	list-style: none;
+    text-transform: uppercase;
+	font-size: 11pt;
+    line-height: 40px;
+    height: 40px;
+	z-index:2;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu li{
+    display:inline;
+    margin: 0 5px;
+}
+
+.menu > li {
+    float: left;
+    position: relative;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 192px;
+    top: 40px;
+    left: 0;
+    background-color: #1C1A1B;
+    padding: 5px;
+	z-index: 2;
+}
+
+
+ul.submenu > li {
+    display: block;
+    line-height: 25px;
+}
+
+ul.submenu > li > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+ul.menu > li:hover {
+    background-color: #2c2c2c;
+}
+
+ul.submenu > li:hover {
+    background-color: #2c2c2c;
+}
+/* Конец. Навигация*/
+
+/* Начало. Контент*/
+#content{
+	/*height: 3500px;  */
+	outline:0px solid #b64d24;	
+}
+
+#inContent{
+	height: 3120px;
+	background-color:#fff;	
+	outline:0px solid #a3978b;
+    position:relative;
+    z-index:1;	
+}
+
+#topInContent{
+	width:97%;
+	outline:0px solid red;
+	margin-left: 13px;
+}
+
+#topInContent p{
+	margin-top:0;
+	padding-top: 12px;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:10px;
+	font-weight:bold;			
+}
+
+#topInContent p span{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:10px;
+	color:#9A9A9A;
+	font-weight:bold;
+}
+
+#topInContent p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:10px;
+	color:#B3CE7A;
+	font-weight:bold;
+}
+
+#topInContent p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:10px;
+	color:#18B426;
+	font-weight:bold;
+}
+
+#border_s2{
+	margin-top:9px;
+	margin-left:12px;
+    border-top:1px solid #efefef;
+    width: 801px;
+	outline:0px solid black;	
+}
+
+.blok_H1, .blok_H2, .blok_H3, .blok_H4, .blok_H5, .obratnaiaSviaz{
+	font-family: Verdana, Tahoma, sans-serif;
+	outline:0px solid #e07714;	
+	margin-left:12px;
+	width:97%;		
+}
+
+.blok_H1 p, .blok_H2 p, .blok_H3 p, .blok_H4 p, .blok_H5 p{
+	font-size:12px;	
+}
+
+.blok_H1 p span, .blok_H2 p span, .blok_H3 p span, .blok_H4 p span, .blok_H5 p span{
+	font-style: italic;
+}
+
+.blok_H2 p a, .blok_H3 p a, .blok_H4 p a, .blok_H5 p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:12px;
+	color:#18B426;
+}
+
+.blok_H2 p a:hover, .blok_H3 p a:hover, .blok_H4 p a:hover, .blok_H5 p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:12px;
+	color:#79bf09;
+}
+
+.blok_H3 h3{
+	font-size:100%;	
+}
+
+.blok_H3 h6{
+	font-size:70%;	
+	margin-bottom: 0;
+}
+
+.blok_H3 ul, .blok_H3 ol{
+	font-size:70%;	
+	margin-top: 10px;
+	padding-left:30px;
+}
+
+.blok_H4 h4{
+	font-size:90%;	
+}
+
+.blok_H4 img{
+	float:left;	
+	margin-right: 25px;
+}
+
+.blok_H5 img{
+	float:right;	
+	margin-left: 25px;
+}
+
+.obratnaiaSviaz h5{
+	margin-bottom:5px;	
+} 
+
+.obrSviazLeft, .obrSviazRight{
+	width:49%;	
+	outline:0px solid #e07714;	
+	display:inline-block;
+	vertical-align:top;
+}
+
+.obrSviazLeft{
+	margin-left:0;
+}
+
+.obrSviazRight{
+	margin-left:10px;	
+}
+
+.obrSviazLeft span{
+	color: #e75057;
+}
+
+.obratnaiaSviaz p{
+	font-size: 12px;
+}
+
+.seroe{
+	background-color:#c2c2c2;
+	height:50px;
+	width:120px;
+/*	float:left;     */
+	outline:0px solid #658817;	
+	margin-right:20px;
+	display: inline-block;
+}
+
+input, textarea{
+	border: 1px solid #989898;
+}
+
+input:focus, textarea:focus{
+	border: 1px solid #b4bb92;	
+}
+
+.lbl, .lblKod{
+	margin-bottom:5px;
+}
+
+.lblKod{
+	margin-top:0;	
+}
+
+.inpt, .txtr, .inptKod{
+	margin-top:0px;
+}
+
+#name, #mobile, #email{
+	height:25px;
+	width:350px;
+}
+
+#kod{
+	height:25px;
+	width:204px;
+}
+
+.lblKod, .inptKod{
+	display:inlane-block;	
+	width:210px;
+}
+
+.inptKod{
+	margin-bottom:0;
+}
+
+.kodVkode{
+	display: inline-block;
+	outline:0px solid #24a3b2;	
+	width:210px;
+/*	margin-left:150px;	*/
+vertical-align: top; 
+height: 50px;
+}
+
+textarea{
+	width:388px;
+	height:213px;
+}
+
+.knopka{
+	margin-top:25px;
+}
+
+#submit{
+	background-color:#7cad1d;
+	border: 1px solid #d4e1cd;
+	font-size: 12px;
+	padding:7px 0;
+	border-radius:5px;
+	width:150px;
+	color:#f1ffc9;
+}
+
+#submit:hover{
+	color:#c2c2c2;
+}
+
+.freeBlocksROG{
+	width:97%;
+	height:225px;
+		outline:0px solid #24a3b2;
+margin: 20px 0 60px 12px;		
+}
+
+.blockRED, .blockORANGE, .blockGREEN{
+	margin: 10px auto;
+	height:65px;
+    width: 99%;
+}
+
+.blockRED{
+	border: 2px solid #c62934;	
+}
+
+.blockORANGE{
+	border: 2px solid #d16b21;		
+}
+
+.blockGREEN{
+	border: 2px solid #7ea027;		
+}
+
+.redLeft, .orangeLeft, .greenLeft{
+    width: 100px;	
+	height:42%;
+	float: left;
+}
+
+.redRight, .orangeRight, .greenRight{
+    width: 100px;	
+	height:94%;
+	float: left;
+	border-left: 1px solid #dddee0;
+	outline:0px solid #24a3b2;
+	margin-top: 2px;
+	width: 688px;
+}
+
+.redVred{
+	background-color:#c62934;	
+}
+
+.orangeVorange{
+	background-color:#d16b21;	
+}
+
+.greenVgreen{
+	background-color:#7ea027;	
+}
+
+.redVred, .orangeVorange, .greenVgreen{
+	font-size:12px;
+	width:100px;
+	padding: 7px 0 5px;
+	text-align:center;
+	font-family: ARIAL, Tahoma, sans-serif;
+	font-weight:bold;
+	border-radius:3px;
+	margin: 19px 0;
+}
+
+.redVred a, .orangeVorange a, .greenVgreen a{
+	display:block;
+	text-decoration:none;
+	text-transform: uppercase;
+	color:#f1ffc9;	
+}
+
+.redVred a:hover, .orangeVorange a:hover, .greenVgreen a:hover{
+	color:#c2c2c2;	
+}
+
+.redRight p, .orangeRight p, .greenRight p{
+	outline:0px solid #ff6400;	
+	font-family: ARIAL, Tahoma, sans-serif;
+	font-size:12px;
+	margin: 17px 5px 0 15px;
+}
+/*
+
+
+
+
+#green_s2 a{
+
+}
+
+#green_s2 a:hover{
+	background-color:#b3df56;	
+}
+*/	
+
+/* Конец. Контент*/
+
+
+/* Начало. Подвал*/
+#footer{
+	height: 132px;
+	background-color:#2c2c2c;		
+	outline:0px solid #b6aa24;			
+}
+
+#inFooter{
+	height: 132px;	
+	outline:0px solid #a3978b;	
+	margin-top: 1px;
+	width: 825px;
+}
+
+#LeftInFooter{
+	outline:0px solid #f28b2b;
+    width:33%;
+	float:left;
+	height: 132px;	
+	margin: 0 19px 0 12px;
+}
+
+#LeftInFooter p{
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:15px;
+	margin:13px 0;
+	color:#DCDCDC;	
+}
+
+#LeftInFooter a{
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:15px;
+	margin:13px 0;
+	color:#729446;	
+}
+
+#LeftInFooter a:hover{
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:15px;
+	margin:13px 0;
+	color:#81BD51;	
+}
+
+#bottomMenu{
+	outline:0px solid #f28b2b;
+	float:left;
+	width:63%;
+	height:40px;
+}
+
+#bottomMenu ul{
+	margin-top:8px 0 0 0;
+	padding:0px;
+}
+
+#bottomMenu ul li{
+	display: inline-block;
+	list-style:none;	
+	outline:0px solid #DCDCDC;
+	margin: 0 7px;
+}
+
+#bottomMenu ul li a{
+	color:#729446;
+	font-size:10px;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-weight:bold;
+}
+
+#bottomMenu ul li a:hover{
+	color:#81BD51;
+	font-size:10px;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-weight:bold;
+}
+
+#CenterInFooter{
+	float:left;
+	width:32%;
+	outline:0px solid #DCDCDC;
+	margin: 5px 1px 0 45px;
+	position:relative;
+}
+
+#CenterInFooter p{
+	margin:0;
+    padding: 10px 0 0 33px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	font-weight:bold;
+	line-height:20px;
+	color:#E9E9E9;
+}
+
+#CenterInFooter p span{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#9A9A9A;
+	font-weight:bold;
+}
+
+#CenterInFooter p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#729446;
+	font-weight:bold;
+}
+
+#CenterInFooter p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#18B426;
+	font-weight:bold;
+}
+
+#mesto2{
+	position:absolute;
+	left:12px;
+	top:30px;
+}
+
+#RightInFooter{
+	float:left;
+	width:24%;
+	outline:0px solid #DCDCDC;
+	margin: 5px 0 0 9px;
+	color:#ECECEC;
+	position:relative;
+}
+
+#RightInFooter p{
+	margin:0;
+    padding: 10px 0 0 39px;
+    font-family: Verdana, Tahoma, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	line-height:20px;
+}
+
+#RightInFooter p span{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#9A9A9A;
+	font-weight:bold;
+}
+
+#RightInFooter p a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#729446;
+	font-weight:bold;
+	padding-left: 6px;
+}
+
+#RightInFooter p a:hover{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size:9px;
+	color:#18B426;
+	font-weight:bold;
+	padding-left: 6px;
+}
+
+#trubka2{
+	position:absolute;
+	left:13px;
+	top:30px;	
+} 
+/* Конец. Подвал*/
